@@ -1,0 +1,16 @@
+{
+    "name": "eslint-prettier-config",
+    "private": true,
+    "version": "1.0.0",
+    "type": "module",
+    "devDependencies": {
+        "prettier": "^3.2.5"
+    },
+    "pnpm": {
+        "overrides": {
+            "eslint": "^9.6.0",
+            "@typescript-eslint/eslint-plugin": "^7.13.1",
+            "@typescript-eslint/parser": "^7.13.1"
+        }
+    }
+}
